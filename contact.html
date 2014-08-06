@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="static/css/kube.min.css">
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a id="home" href="index.html">HOME</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="form-messages"></div>
+        <form class="forms" id="ajax-contact" method="post" action="mailer.php">
+            <label>
+                Name <span class="req">*</span>
+                <input type="text" id="name" name="name" class="width-50" required/>
+            </label>
+            <label>
+                Email <span class="req">*</span>
+                <input type="email" id="email" name="email" class="width-50" required />
+            </label>
+            <label>
+                Message <span class="req">*</span>
+                <textarea id="message" name="message" class="width-50" rows="10" required></textarea>
+            </label>
+            <p>
+                <input type="submit" class="btn" value="Submit" />
+            </p>
+<!--             <div class="field">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="field">
+                <button type="submit">Send</button>
+            </div> -->
+        </form>
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="./static/scripts/app.js"></script>
+    </body>
+</html>
