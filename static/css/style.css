@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    margin: 2em;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+h1, h2, a {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+#home:hover, #download:hover, #linked:hover, #git:hover, #contact:hover {
+    color: gray;
+}
+
+span {
+    font-weight: normal;
+}
+
+/*input {
+    padding: 0.5em 0.5em;
+}*/
+
+.content {
+    color: #000;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
