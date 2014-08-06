@@ -8,7 +8,12 @@ h1 {
     letter-spacing: 1px;
 }
 
-h1, h2, h3, h4, a {
+h1, h2, h3, h4 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #000;
+}
+
+a {
     font-family: 'Open Sans', sans-serif;
     color: #000;
 }
@@ -29,13 +34,10 @@ span {
     font-weight: normal;
 }
 
-/*input {
-    padding: 0.5em 0.5em;
-}*/
 
 .content {
     color: #000;
-    height: 100px;
+    height: 33%;
     display: inline-block;
     position: absolute;
     top: 0;
